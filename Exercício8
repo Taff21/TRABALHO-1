@@ -1,0 +1,42 @@
+# TRABALHO-1
+Linguagem Java
+import java.util.Scanner;
+
+public class Exercício8 {
+
+	public static void main(String[] args) {
+		
+		double consórcio;
+		double prestações; 
+		double prestaçõespagas; 
+		double resultado1; 
+		double resultado2;
+		double resultado3;
+		double resultado4;
+		
+		
+		Scanner input = new Scanner(System.in); 
+		
+		System.out.println("Informe o valor do consórcio:");
+		consórcio=input.nextDouble(); 
+		
+		System.out.println("Informe a quantidade total de prestações:");
+		prestações=input.nextDouble(); 
+		
+		System.out.println("Informe a quantidade de prestações pagas:");
+		prestaçõespagas=input.nextDouble(); 
+		
+		resultado1=consórcio/prestações; 
+		
+		resultado2= resultado1*prestaçõespagas;
+		System.out.println("Valor Pago:" + resultado2);
+		
+		resultado3=consórcio-resultado2;
+		System.out.println("Valor Devido:" + resultado3);
+		
+		resultado4=prestações-prestaçõespagas; 
+		System.out.println("Prestaçõs restantes:" + resultado4);
+		
+		
+	}
+}
