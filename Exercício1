@@ -26,5 +26,6 @@ public class Exercício1 {
 		resultado1 = (num1 + num2 + num3) / num4; 
 		System.out.print("Média Final:" + resultado1);
 		
+		
 	}
 }
