@@ -37,8 +37,7 @@ public class Exercício2 {
 		// resultado3 = resultado1+resultado2;
 		
 		resultado3 = (num1*num2) + (num3*num4); 
-		System.out.print("A soma dos produtos é:" + resultado3);
-		
+		System.out.print("A soma dos produtos é:" + resultado3);	
 		
 	}
 }
