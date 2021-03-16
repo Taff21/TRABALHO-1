@@ -1,0 +1,44 @@
+# TRABALHO-1
+Linguagem Java
+import java.util.Scanner;
+
+public class Exercício2 {
+
+	public static void main(String[] args) {
+		
+		double num1; 
+		double num2; 
+		double num3; 
+		double num4; 
+		double resultado1;
+		double resultado2;
+		double resultado3;
+		
+		Scanner input = new Scanner(System.in); 
+		
+		System.out.print("Informe o Valor do Fator1:");
+		num1=input.nextDouble(); 
+		
+		System.out.print("Informe o Valor do Fator2:");
+		num2=input.nextDouble(); 
+		
+		resultado1 = num1*num2;
+		System.out.println("Valor do Produto:" + resultado1);
+		
+		System.out.print("Informe o Valor do Fator1:");
+		num3=input.nextDouble(); 
+		
+		System.out.print("Informe o Valor do Fator2:");
+		num4=input.nextDouble(); 
+		
+		resultado2 = num3*num4;
+		System.out.println("Valor do Produto:" + resultado2);
+		
+		// resultado3 = resultado1+resultado2;
+		
+		resultado3 = (num1*num2) + (num3*num4); 
+		System.out.print("A soma dos produtos é:" + resultado3);
+		
+		
+	}
+}
