@@ -1,0 +1,26 @@
+# TRABALHO-1
+Linguagem Java
+import java.util.Scanner;
+
+public class Exercício3 {
+
+	public static void main(String[] args) {
+		
+		double num1; 
+		double num2; 
+		double resultado; 
+		
+		Scanner input = new Scanner(System.in);
+				
+		System.out.print("Valor da base (b):");
+		num1=input.nextDouble();
+		
+		System.out.print("Valor da altura (h):");
+		num2=input.nextDouble();
+		
+		resultado = num1 * num2; 
+		System.out.print("Valor da área do quadrado (b.h):" + resultado);
+		
+		
+	}
+}
