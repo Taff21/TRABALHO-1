@@ -1,0 +1,29 @@
+# TRABALHO-1
+Linguagem Java
+import java.util.Scanner;
+
+public class Exercício5 {
+
+public static void main(String[] args) {
+		
+		double num1; 
+		double num2=100; 
+		double num3;
+		double resultado1; 
+		double resultado2;
+		
+		Scanner input = new Scanner(System.in); 
+		
+		System.out.println("Informe o valor do produto:"); 
+		num1=input.nextDouble(); 
+		
+		System.out.println("Informe o valor do desconto:"); 
+		num3=input.nextDouble(); 
+		
+		resultado1 = (num1/num2)*num3; 
+		System.out.println("Valor Descontado:" + resultado1);
+		
+		resultado2 = num1 - resultado1; 
+		System.out.println("Valor com Desconto:" + resultado2);
+	}
+}
