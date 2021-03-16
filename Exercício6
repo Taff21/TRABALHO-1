@@ -1,0 +1,32 @@
+# TRABALHO-1
+Linguagem Java
+import java.util.Scanner;
+
+public class Exercício6 { 
+	
+	public static void main(String[] args) {
+		
+		double num1;
+		double num2; 
+		double resultado1;
+		double resultado2; 
+		
+		Scanner input = new Scanner(System.in); 
+		
+		System.out.println("Informe o valor1:");
+		num1=input.nextDouble(); 
+		
+		System.out.println("Informe o valor2:");
+		num2=input.nextDouble(); 
+		
+		resultado1=num2; 
+		System.out.println("Resultado valor1: " + resultado1);
+		
+		resultado2=num1; 
+		System.out.println("Resultado valor2: " + resultado2);
+		
+	}
+	
+}
+
+	
