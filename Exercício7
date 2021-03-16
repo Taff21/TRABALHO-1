@@ -1,0 +1,51 @@
+# TRABALHO-1
+Linguagem Java
+import java.util.Scanner;
+
+public class Exercício7 {
+
+	public static void main(String[] args) {
+		
+	double quantidade1; 
+	double quantidade2;
+	double quantidade3;
+	double fruta=2.50; 
+	double cremoso=3.50; 
+	double recheado=4.50; 
+	double resultado1; 
+	double resultado2; 
+	double resultado3; 
+	double resultado4;
+	
+	Scanner input = new Scanner(System.in); 
+	
+			
+	System.out.println("Un. de picolés de fruta vendidos:");
+	quantidade1=input.nextDouble(); 
+	
+	System.out.println("Valor por unidade: 2.50");
+	
+	resultado1= quantidade1*fruta;
+	System.out.println("Valor total:" + resultado1);
+	
+	System.out.println("Un. de picolés cremosos vendidos:");
+	quantidade2=input.nextDouble();
+	
+	System.out.println("Valor por unidade: 3.50");
+	
+	resultado2= quantidade2*cremoso;
+	System.out.println("Valor total:" + resultado2);
+	
+	System.out.println("Un. de picolés recheados vendidos:");
+	quantidade3=input.nextDouble(); 
+	
+	System.out.println("Valor por unidade: 4.50");
+	
+	resultado3= quantidade3*recheado;
+	System.out.println("Valor total:" + resultado3);
+	
+	resultado4= resultado1+resultado2+resultado3; 
+	System.out.println("Total de Vendas:" + resultado4);
+	
+	}
+}
